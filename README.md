@@ -22,3 +22,9 @@
 - `mutant_models_stan/fitting_mt_modelX-XX.stan`  
   This stan code defines the core process of the Bayesian inference. Each code has a different combination of the parameters estimated. The file name X-XX indicates the model ID and the ID is listed in `model_list.csv`
 
+#### Processing for the visualization and summarizing the result
+- `parameter_sample.R`  
+  This R code extract the MCMC samples of the parameters as a matrix for the reduction of the data size and the easy handling of the sampling data.
+- `posterior_prediction.R`  
+
+- `posterior_summary.R`
