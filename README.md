@@ -18,4 +18,7 @@
 
 #### Parameter estimation of the mutants
 - `fitting_mt.R`  
-  This code executes the Bayesian inference and the model selection for each mutant. For each mutant, the parameter estimation is done using all the models in `/mutant_stan` directory.
+  This code executes the Bayesian inference and the model selection for each mutant. For each mutant, the parameter estimation is done using all the stan files in `/mutant_models_stan` directory, which defines every combination of the model parameters. It returns the MCMC samples of each model and its WAIC for each mutant.
+- `mutant_models_stan/fitting_mt_modelX-XX.stan`
+  This stan code defines the core process of the Bayesian inference. Each code has a different combination of the parameters estimated. The file name X-XX indicates the model ID and the ID is listed in `model_list.csv`
+
