@@ -11,5 +11,11 @@
 ### Code description
 #### Parameter estimation of the wild-type
 - `fitting_wt.R`  
-  `fitting_wt.R` performs the Bayesian inference of the model parameter of wild-type data in `dataset.csv`. It processes the rawdata,  executes a stan code `fitting_wt.stan`, and checks the convergence of the MCMC samples.
-- 
+  This code provides the Bayesian inference of wild-type data in `dataset.csv`. It processes the rawdata,  executes a stan code `fitting_wt.stan`, and checks the convergence of the MCMC samples.
+- `fitting_wt.stan`  
+  This stan code defines the core processes of the Bayesian inference, such as the numerical solvor of the model ODEs and the calculation of the likelihoods.
+
+
+#### Parameter estimation of the mutants
+- `fitting_mt.R`  
+  
