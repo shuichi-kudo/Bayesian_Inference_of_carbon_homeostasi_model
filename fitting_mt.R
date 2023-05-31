@@ -1,7 +1,7 @@
 # This program execute stan fitting of all mutants using estimated parameter distributions of WT 
 # Return result of model selection and MCMC samples of each model and mutants
 # Developed :2022/03/10 
-# Final update : 2023/01/31 
+# Final update : 2023/05/31 
 # Before executing this mutant analysis, you need to complete the wild type analysis using "fitting_wt.R"
 # You need enough memory size 20~30GB
 # Settings ######################################################################
