@@ -18,4 +18,4 @@
 
 #### Parameter estimation of the mutants
 - `fitting_mt.R`  
-  
+  This code executes the Bayesian inference and the model selection for each mutant. For each mutant, the parameter estimation is done using all the models in `/mutant_stan` directory.
