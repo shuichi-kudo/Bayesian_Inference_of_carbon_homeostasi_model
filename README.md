@@ -24,7 +24,8 @@
 
 #### Processing for the visualization and summarizing the result
 - `parameter_sample.R`  
-  This R code extract the MCMC samples of the parameters as a matrix for the reduction of the data size and the easy handling of the sampling data.
+  This code extract the MCMC samples of the parameters as a matrix for the reduction of the data size and the easy handling of the sampling data.
 - `posterior_prediction.R`  
-
+This code generates the MCMC samples of the model prediction, which approximates the posterior distribution of the prediction, from the MCMC samples of the parameters processed with `parameter_sample.R`.
 - `posterior_summary.R`
+This code calculates the posterior estimates of each parameter for each genotype and returns it as a summary table.
