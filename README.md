@@ -1,7 +1,7 @@
 ## Bayesian inference of the carbon homeostasis model parameters using starch and sucrose time-series data
 
 
-We assessed the genes involved in the regulation of starch metabolism by integrating the mathematical modeling and mutant experiments of Arabidopsis plants. We adopted the carbon homeostasis model and estimated the model parameters using the time-series data of the starch and sucrose content in leaf tissues obtained from the wild-type and 13 mutants. Following souce codes provide the parameter estimation based on the Bayesian inference using the dataset `dataset.csv`.
+Aim of this study is to assess the genes involved in the regulation of starch metabolism by integrating the mathematical modeling and mutant experiments of Arabidopsis plants. We adopted the carbon homeostasis model and estimated the model parameters using the time-series data of the starch and sucrose content in leaf tissues obtained from the wild-type and 13 mutants. Following souce codes provide the parameter estimation based on the Bayesian inference using the dataset `dataset.csv`.
 
 ### Workflow
 1. Parameter estimation of the wild-type using `fitting_wt.R`
